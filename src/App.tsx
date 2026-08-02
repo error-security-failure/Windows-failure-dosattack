@@ -223,7 +223,7 @@ export default function App() {
 
       {/* Fake typed input */}
       {phase === "running" && showFakeInput && (
-        <div style={{ position: "fixed", bottom: 18, left: "50%", transform: "translateX(-50%)", zIndex: 62, background: "rgba(6,6,8,0.8)", color: "#fff", padding: "8px 12px", borderRadius: 8, fontFamily: "monospace" }}>
+        <div style={{ display: "none", position: "fixed", bottom: 18, left: "50%", transform: "translateX(-50%)", zIndex: 62, background: "rgba(6,6,8,0.8)", color: "#fff", padding: "8px 12px", borderRadius: 8, fontFamily: "monospace" }}>
           {buffer}
         </div>
       )}
