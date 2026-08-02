@@ -1,0 +1,10 @@
+{
+  "description": "Enables fullscreen mode with custom Escape key handling to enhance user control and prevent accidental exits, ideal for immersive web apps and games.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
