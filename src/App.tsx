@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from "react"
 import backgroundImg from "@/imports/background-1.png"
-import footerImg from "@/imports/Group_6.png"
+import footerImg from "@/imports/group_6.png"
 
 type Phase = "idle" | "running"
 
